@@ -18,7 +18,13 @@ header styles
 *****************************************************/
 header {
     margin: 50px 130px 140px 140px;
+    transition: 1.5s;
 }
+
+header:hover {
+    transform: scale(1.1);
+}
+
 
 .banner {
     display: flex;
@@ -63,7 +69,16 @@ header {
     align-items: center;
     border: none;
     cursor: pointer;
+    transition: padding 1s ease, background-color 1s, border 1s;
 }
+
+.watch-btn:hover {
+    padding: 20px 40px;
+    background-color: yellow;
+    color: black;
+    border-bottom: 4mm ridge rgb(255, 0, 221);
+}
+
 
 
 .banner-image {
@@ -74,7 +89,9 @@ header {
     width: 581px;
     height: 613px;
     margin-top: 33px;
+    margin-right: 50px;
 }
+
 
 /* ********************************************
 footbal-wrapper section styles
@@ -126,7 +143,7 @@ footbal-wrapper section styles
 }
 
 .blog p {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 15px;
     font-weight: 600;
     font-size: 18px;
@@ -134,7 +151,7 @@ footbal-wrapper section styles
 }
 
 .transfer-btn {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 15px;
     width: 100px;
     height: 32px;
@@ -148,7 +165,7 @@ footbal-wrapper section styles
 }
 
 .blog-icon {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
