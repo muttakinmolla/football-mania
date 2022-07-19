@@ -1,0 +1,257 @@
+/******************************************** 
+common styles
+********************************************/
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@500&family=Slabo+27px&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+}
+
+
+/* *************************************************
+header styles 
+*****************************************************/
+header {
+    margin: 50px 130px 140px 140px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161616;
+    color: white;
+    border-radius: 30px;
+}
+
+.banner-info {
+    width: 531px;
+    height: 424px;
+    margin-left: 106px;
+}
+
+.banner-info h1 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-info p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.watch-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 25px;
+    gap: 10px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+
+.banner-image {
+    background: url('../assets/Banner\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+}
+
+/* ********************************************
+footbal-wrapper section styles
+********************************************** */
+.football-wrapper {
+    margin: 0 130px 140px 140px;
+    display: flex;
+}
+
+.menu {
+    Width: 312px;
+    Height: 312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161616;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    margin-right: 24px;
+
+}
+
+.menu a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 200px;
+    height: 58px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 18px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.blog {
+    border: 1px solid #f2eaea;
+    border-radius: 13px;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog p {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.transfer-btn {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 100px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+}
+
+.blog-icon {
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.fa-clock {
+    margin-right: 10px;
+}
+
+.fa-comment-dots {
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+/**************************************************
+footer style
+***************************************************/
+footer {
+    background-color: #161616;
+    padding-bottom: 130px;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+footer hr {
+    margin: 0 140px 0 140px;
+    height: 1px;
+    background-color: rgb(45 44 44);
+    border: none;
+}
+
+.footer-menu {
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #B9B9B9;
+    padding: 20px;
+}
+
+
+/**************************************************************
+match.html style
+***************************************************************/
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    width: 100%;
+    row-gap: 24px;
+}
+
+.match {
+    border: 1px solid #f2eaea;
+    border-radius: 13px;
+
+}
+
+.match-flag {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.match-flag h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+}
+
+.match-flag p {
+    margin: 0 0 50px 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4D4D4D
+}
+
+
+
+/* .blog p {
+    margin-left: 10px;
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+} */
