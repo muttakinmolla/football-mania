@@ -423,8 +423,7 @@ mobile devices
     }
 
     .matches {
-        grid-template-columns: repeat(2, 1fr);
-        margin-top: 40px;
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
@@ -541,6 +540,10 @@ mobile devices
 
     .footer-menu a {
         padding: 28px;
+    }
+
+    .matches {
+        grid-template-columns: repeat(2, 1fr);
     }
 
 }
