@@ -124,6 +124,12 @@ footbal-wrapper section styles
     padding-top: 18px;
 }
 
+#active {
+    background-color: red;
+    color: white;
+    font-weight: 900;
+}
+
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -287,11 +293,11 @@ mobile devices
 **************************************************************/
 @media only screen and (max-width:576px) {
     body {
-        margin: 20px;
+        /* margin: 20px; */
     }
 
     header {
-        margin: 0;
+        margin: 20px;
         transition: 1.5s ease-in-out;
     }
 
@@ -326,6 +332,10 @@ mobile devices
         width: 100%;
         height: 400px;
         margin: 0 0 0 30px;
+    }
+
+    main {
+        margin: 20px;
     }
 
     .main-wrapper {
@@ -381,6 +391,7 @@ mobile devices
     }
 
     footer {
+        margin-top: 40px;
         padding-bottom: 50px;
     }
 
@@ -411,15 +422,17 @@ mobile devices
         padding: 15px;
     }
 
+    .matches {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 40px;
+    }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-    body {
-        margin: 20px;
-    }
 
     header {
-        margin: 0;
+        margin: 20px;
         transition: 1.5s ease-in-out;
     }
 
@@ -451,6 +464,10 @@ mobile devices
         margin-right: 0;
         background-position: bottom;
         background-size: 100% 89%;
+    }
+
+    main {
+        margin: 20px;
     }
 
     .main-wrapper {
@@ -506,6 +523,11 @@ mobile devices
         margin-bottom: 50px;
     }
 
+    footer {
+        margin-top: 40px;
+        padding-bottom: 50px;
+    }
+
     footer hr {
         margin: 0 30px;
     }
@@ -518,7 +540,7 @@ mobile devices
     }
 
     .footer-menu a {
-        padding: 24px;
+        padding: 28px;
     }
 
 }
